@@ -1,6 +1,6 @@
 {
   "name": "@ant-design/react-native",
-  "version": "3.0.5",
+  "version": "3.0.5-chainz",
   "description": "基于蚂蚁金服移动设计规范的 React Native 组件库",
   "keywords": [
     "ant",
@@ -148,5 +148,8 @@
   "typings": "lib/index.d.ts",
   "pre-commit": [
     "lint-staged"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "http://10.16.100.79:8081/repository/npm-chainz/"
+  }
 }
